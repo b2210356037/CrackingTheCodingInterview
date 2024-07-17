@@ -29,10 +29,3 @@ public:
         return s1map == s2map;
     }
 };
-
-int main() {
-    Solution s;
-    cout << s.checkPermutation("hello", "ashdhellaohello") << endl;
-
-    return 0;
-}
