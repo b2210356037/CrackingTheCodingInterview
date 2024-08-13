@@ -13,13 +13,14 @@ public:
                 count = 0;
             }
         }
+        //problem definition states that the compressed string should be returned only if it is smaller than the original string
         return compressed.size() < input.size() ? compressed : input;
     }
 };
 
 int main(){
     Solution s;
-    string input = "aabcccccaaa";
+    string input = "aabbcc";
     cout << s.string_compression(input);
     return 0;
 
